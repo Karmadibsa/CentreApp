@@ -1,9 +1,10 @@
 export const CONFIG = {
-    // Remplacez cette URL par l'URL brute de votre fichier JSON de configuration d'outils
-    // Exemple : 'https://raw.githubusercontent.com/username/repo/main/tools.json'
-    TOOLS_CONFIG_URL: 'https://raw.githubusercontent.com/momper-axel/centrapp-config/main/tools.json',
+    // Cette URL pointe vers la version "Raw" du fichier tools.json hébergé sur votre dépôt GitHub.
+    // Cela permet à l'application de lire ce fichier directement depuis internet.
+    // Si vous modifiez tools.json sur GitHub, l'application se mettra à jour automatiquement au prochain lancement.
+    TOOLS_CONFIG_URL: 'https://raw.githubusercontent.com/Karmadibsa/CentreApp/main/tools.json',
 
-    // Liste d'outils par défaut (Utilisée si la configuration en ligne n'est pas accessible)
+    // Liste de secours au cas où l'internet ne fonctionne pas ou le fichier est inaccessible
     DEFAULT_TOOLS: [
         {
             id: '1',
@@ -31,7 +32,7 @@ export const CONFIG = {
         },
         {
             id: '4',
-            name: 'OptiCal Center', // Renamed slightly to fit context or keep user's name but description is key
+            name: 'OptiCal Center',
             description: 'Planification de repas et calculs pour le batch cooking.',
             url: 'https://optical-center.netlify.app/',
             icon: 'food-variant',

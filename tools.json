@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Mots Passants",
+        "description": "Jeu de lettres et de réflexion.",
+        "url": "https://mots-passants.netlify.app/",
+        "icon": "alphabetical",
+        "color": "#6C63FF"
+    },
+    {
+        "id": "2",
+        "name": "Fil Good",
+        "description": "Calculateur de coûts d'impression 3D.",
+        "url": "https://fil-good.netlify.app/",
+        "icon": "printer-3d",
+        "color": "#FF6584"
+    },
+    {
+        "id": "3",
+        "name": "OptiTrain",
+        "description": "Optimisation d'abonnements train pour alternants.",
+        "url": "https://optitrain.netlify.app/",
+        "icon": "train",
+        "color": "#00E5FF"
+    },
+    {
+        "id": "4",
+        "name": "OptiCal Center",
+        "description": "Planification de repas et calculs pour le batch cooking.",
+        "url": "https://optical-center.netlify.app/",
+        "icon": "food-variant",
+        "color": "#FFA500"
+    }
+]
