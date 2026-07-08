@@ -30,5 +30,13 @@
         "url": "https://optical-center.axel-momper.fr/",
         "icon": "food-variant",
         "color": "#FFA500"
+    },
+    {
+        "id": "5",
+        "name": "Prompt",
+        "description": "Prompteur qui prompt du prompy",
+        "url": "https://prompt.axel-momper.fr/",
+        "icon": "prompt",
+        "color": "#FL0100"
     }
 ]
